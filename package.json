@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "start": "vuepress dev docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-register-components": "^1.9.7",
+    "katex": "^0.16.2",
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-mathjax3": "^4.3.1",
+    "vuepress-theme-reco": "^1.6.14"
+  }
+}
